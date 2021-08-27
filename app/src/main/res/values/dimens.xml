@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardcorner_student">18dp</dimen>
+    <dimen name="student_margin">8dp</dimen>
+    <dimen name="student_padding">8dp</dimen>
+    <dimen name="textsize_student">22sp</dimen>
+    <dimen name="textsize_student_id">24sp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="textsize_customview">22sp</dimen>
+</resources>

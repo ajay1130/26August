@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/cardcorner_student"
+    android:layout_margin="@dimen/student_margin"
+    android:backgroundTint="#F1E5E2"
+    android:padding="@dimen/student_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/student_margin"
+        android:padding="@dimen/student_padding"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/app_name"
+            android:layout_margin="@dimen/student_margin"
+            android:padding="@dimen/student_padding"
+            android:textSize="@dimen/textsize_student_id"
+            android:id="@+id/text_id_student"
+            style="@style/MaterialAlertDialog.MaterialComponents.Title.Text"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_name_student"
+            android:layout_margin="@dimen/student_margin"
+            android:padding="@dimen/student_padding"
+            tools:text="@string/app_name"
+            android:textSize="@dimen/textsize_student"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_course_student"
+            android:layout_margin="@dimen/student_margin"
+            android:padding="@dimen/student_padding"
+            tools:text="@string/app_name"
+            android:textSize="@dimen/textsize_student"
+            />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
